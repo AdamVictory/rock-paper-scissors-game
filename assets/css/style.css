@@ -1,3 +1,21 @@
 body {
     background-color: coral;
 }
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 200ms;
+}
+
+.choice:hover {
+    transform: scale(1.3);
+}
