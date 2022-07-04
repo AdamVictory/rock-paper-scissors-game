@@ -12,14 +12,14 @@
 <body>
 
     <header>
-        <h1>Rock, Paper, Scissors</h1>
+        <h1>Rock, Paper, Scissors Game</h1>
         <h2>Can you beat the computer?</h2>
     </header>
 
-    <div class="choices">
-        <button class="choice">🪨</button>
-        <button class="choice">🧻</button>
-        <button class="choice">✂️</button>
+    <div class="selections">
+        <button class="selection" data-selection="rock">🪨</button>
+        <button class="selection" data-selection="paper">🧻</button>
+        <button class="selection" data-selection="scissors">✂️</button>
     </div>
 
     <div class="results">
@@ -32,16 +32,15 @@
             Computer
             <span class="result-score">0</span>
         </div>
-        <div class="result-choice winner">🪨</div>
-        <div class="result-choice">✂️</div>
-
+        <!-- <div class="result-choice winner">🪨</div>
+        <div class="result-choice">✂️</div> -->
 
     </div>
-    
 
     <footer>
         <h1>Rules</h1>
-        <h2>Scissors beats Rock | Paper beats Rock | Rock beats Scissors</h2>
+        <h2>Scissors > Rock | Paper > Rock | Rock > Scissors</h2>
     </footer>
+
 </body>
 </html>

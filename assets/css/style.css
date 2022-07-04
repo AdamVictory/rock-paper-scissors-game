@@ -2,12 +2,22 @@ body {
     background-color: coral;
 }
 
-.choices {
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: black
+}
+
+.selections {
     display: flex;
     justify-content: center;
 }
 
-.choice {
+.selection {
     background: none;
     border: none;
     outline: none;
@@ -16,7 +26,7 @@ body {
     transition: 200ms;
 }
 
-.choice:hover {
+.selection:hover {
     transform: scale(1.3);
 }
 
@@ -31,17 +41,15 @@ body {
 
 .result-score {
     margin-left: 0.2rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: white;
 }
 
-.result-choice {
+.result-selection {
     opacity: 0.5;
-
 }
 
-.result-choice.winner {
+.result-selection.winner {
     opacity: 1;
     font-size: 1.5rem;
-
 }
