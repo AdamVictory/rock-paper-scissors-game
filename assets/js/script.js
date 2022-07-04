@@ -41,7 +41,6 @@ function addSelectionResult(selection, winner) {
     div.classList.add('result-selection')
     if (winner) div.classList.add('winner')
     finalColumn.after(div)
-
 }
 
 function isWinner(selection, opponentSelection) {
