@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
 body {
     background-color: coral;
+    font-family:Koulen;
 }
 
 h1 {
@@ -22,7 +26,7 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 4rem;
     transition: 200ms;
 }
 
@@ -41,12 +45,13 @@ h2 {
 
 .result-score {
     margin-left: 0.2rem;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
 }
 
 .result-selection {
     opacity: 0.5;
+    font-size: 2rem;
 }
 
 .result-selection.winner {
