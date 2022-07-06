@@ -2,9 +2,9 @@
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/site-responsive.png">
 
-This website consists of a user friendly rock paper scissors game that allows the individual to compete against the computer. It is a fun game that can be played by anyone and has a truly random result creating a fair game. This website will allow the user to understand the rules of the game and learn more about probability and improve their decision making. It is very easy to use so it can be played by all ages.  
+This website consists of a modern and user friendly rock paper scissors game that allows the individual to compete against the computer. It is a fun game that can be played by anyone and has a truly random result creating a fair game. This website will allow the user to understand the rules of the game and learn more about probability and improve their decision making. It is very easy to use so it can be played by all ages.  
 
-The main aim of this project is to contruct an aesthetic, easy to use, responsive and modern website which substantially creates a fun experience for the user. It will be constructed using HTML, CSS and Javascript. The full list of technologies used can be found further down. 
+The main aim of this project is to contruct an aesthetically pleasing, easy to use, responsive and modern website which substantially creates a fun experience for the user by allowing them to interact further with the website. It will be constructed using HTML, CSS and Javascript. The full list of technologies used can be found further down. 
 
 [Live link to website](https://adamvictory.github.io/rock-paper-scissors/)
 
@@ -47,13 +47,13 @@ The main aim of this project is to contruct an aesthetic, easy to use, responsiv
 # UX (User Experience)
 ## Purpose 
 
-The main goal for this website is to serve as an easy to use online game for users to compete against a computer in rock paper scissors. It provides all the key infomation on how to play the game and takes a new modern approach the the game including modern emojis instead of hand signs which has been done before. It is also easy to use for new users who have never played the game before and it a unique game for those who have played the game before but maybe not online, against a computer or through using emojis.
+The main goal for this website is to serve as an easy to use online game for users to compete against a computer in rock paper scissors. It provides all the key infomation on how to play the game and takes a new modern approach to the game including modern emojis instead of hand signs which has been done before. It is also easy to use for new users who have never played the game before and it a unique game for those who have played the game before but maybe not online, against a computer or through using emojis.
 
 ## First Time Visitor Goals
 + As a first time user, I can easily learn how to play the game and click on the emojis to compete against the computer. 
 
 ## Returning Visitor Goals
-+ As a returning user, I can improve upon my score and beat the comuter by a higher score.
++ As a returning user, I can improve upon my score and beat the computer by a higher score.
 
 ## Frequent Visitor Goals
 + I can play together with friends on the same screen to beat the computer together. 
@@ -103,7 +103,7 @@ This is a list of all the technologies used to create this project
 
 ## Cross-Browser Testing 
 I tested the website across 3 web browsers that are Mozilla Firefox, Google chrome and Safari. The site worked on all of these web broswers. 
-I tested the website, it is responsive and functions well using Google Dev Tools on all devide sizes. 
+I tested the website, it is responsive and functions well using Google Dev Tools on all device sizes. 
 
 
 ## Compatibility Testing 
@@ -111,18 +111,13 @@ I tested on many different devices such as Apple Macbook pro, Dell laptop, Apple
 
 
 ## Responsiveness Testing 
-I used Google Chromes developer tools to test thee responsiveness of the website throughout development. I designed the website for different screen sizes such as 800px (medium screen size), 600px (small screen size) annd 400px (ultra small screen size). 
-
-### The Header 
-Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. It spans the full width of the page. Once the width of the screen is reduced the navigation menu stacks below the logo.
- <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/smaller-header.png">
-
-### The Footer 
-The footer does not contain a lot of text therefore it worked on all screen sizes. It stayed the same on all screen sizes. 
+I used Google Chromes developer tools to test the responsiveness of the website throughout development. I designed the website for different screen sizes such as 800px (medium screen size), 600px (small screen size) annd 400px (ultra small screen size). 
 
 ## User Testing 
-The navigation was clearly accessible on all screens but the small iphone. All information was presented clearly with contrasting backgrounds. 
+All information was presented clearly with contrasting backgrounds. 
 The simplicity of the website makes it very easy to view and navigate through. 
+The opacity changes in the emojis is very clear as well and shows who the winner is. 
+The colours chosen make it very easy to navigate through the webiste. 
 
 ## Validator Testing 
 
@@ -141,7 +136,8 @@ The simplicity of the website makes it very easy to view and navigate through.
 
 
 ## Performance Testing 
-I tested the website using Lighthouse through Google Chrome Developer Tools. I am satisified with all of the results.
+I tested the website using Lighthouse through Google Chrome Developer Tools. 
+I am satisified with all of the results as it acheived a high score.
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/lighthouse-report.png">
 
@@ -173,7 +169,7 @@ The live link can be found here - https://adamvictory.github.io/rock-paper-sciss
 
 
 ## Emojis 
-[Emojipedia][https://emojipedia.org/roll-of-paper/] was used for the emoji game icons.
+[Emojipedia][https://emojipedia.org/] was used for the emoji game icons.
 
 ## Fonts
 I only used one font for this project. I got it from google fonts it's called Koulen. 
@@ -182,15 +178,8 @@ I only used one font for this project. I got it from google fonts it's called Ko
 ## Colours
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/colour-scheme.png">
-The colour scheme in this project consists of three colours: Black, White and Coral They complement eachother very well and create good contrast. 
+The colour scheme in this project consists of three colours: Black, White and Coral.
+They complement eachother very well and create good contrast. 
 I used [Coolers](https://coolors.co/)
-
-## Code
-+ I used this to help me embed google maps into my contact section [Big Commerce](https://support.bigcommerce.com/s/question/0D51B000046LDqwSAG/how-to-center-embedded-google-map-on-webpage?language=en_US)
-+ The code for my Hero Image was taken from the Love Running Walkthrough. 
-+ The code for the contact form was also taken from the Love Running Walkthrough. 
-+ The code for the "Why our tacos?" section was taken from the ethos section in the Love Running Walkthrough. 
-+ The code for my social media links was taken from the Love Running Walkthrough. 
-+ The animation code for my banner was taken from the Love Running Walkthrough, 
 
 
