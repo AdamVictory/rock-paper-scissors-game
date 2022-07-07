@@ -44,10 +44,10 @@ The main aim of this project is to contruct an aesthetically pleasing, easy to u
 <hr>
 
 
-# UX (User Experience)
+# User Experience
 ## Purpose 
 
-The main goal for this website is to serve as an easy to use online game for users to compete against a computer in rock paper scissors. It provides all the key infomation on how to play the game and takes a new modern approach to the game including modern emojis instead of hand signs which has been done before. It is also easy to use for new users who have never played the game before and it a unique game for those who have played the game before but maybe not online, against a computer or through using emojis.
+The main goal for this website is to serve as an easy to use online game for users to compete against a computer in rock paper scissors. It provides all the key infomation on how to play the game and takes a new modern approach to the game including emojis instead of hand signs which has been done before. It is also easy to use for new users who have never played the game before and it a unique game for those who have played the game before but maybe not online, against a computer or through using emojis.
 
 ## First Time Visitor Goals
 + As a first time user, I can easily learn how to play the game and click on the emojis to compete against the computer. 
@@ -89,10 +89,10 @@ The main goal for this website is to serve as an easy to use online game for use
 # Technologies Used 
 This is a list of all the technologies used to create this project
 + HTML5 - Used to give the overvall structure and semantic value. 
-+ CSS3 - Used to apply style throughout the website
++ CSS3 - Used to apply style throughout the website.
 + Javascript - Used to create functions to allow the game to work. 
 + Google Fonts - Font is embedded into thwe website through a link in the css file. 
-+ Emojipedia - Used for Emoji icons 
++ Emojipedia - Used for Emoji icons.
 + Git, Github & Gitpod - Used to develop and store my code. 
 + Am I responsive - Used to generate the website mockup. 
 + Coolers - Used to create my colour scheme.  
@@ -118,6 +118,7 @@ All information was presented clearly with contrasting backgrounds.
 The simplicity of the website makes it very easy to view and navigate through. 
 The opacity changes in the emojis is very clear as well and shows who the winner is. 
 The colours chosen make it very easy to navigate through the webiste. 
+I confirmed that the game results are always correct. 
 
 ## Validator Testing 
 
@@ -169,7 +170,7 @@ The live link can be found here - https://adamvictory.github.io/rock-paper-sciss
 
 
 ## Emojis 
-[Emojipedia][https://emojipedia.org/] was used for the emoji game icons.
+[emojipedia][https://emojipedia.org/] was used for the emoji game icons.
 
 ## Fonts
 I only used one font for this project. I got it from google fonts it's called Koulen. 
@@ -180,6 +181,6 @@ I only used one font for this project. I got it from google fonts it's called Ko
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/colour-scheme.png">
 The colour scheme in this project consists of three colours: Black, White and Coral.
 They complement eachother very well and create good contrast. 
-I used [Coolers](https://coolors.co/)
+I used [coolers](https://coolors.co/)
 
 
