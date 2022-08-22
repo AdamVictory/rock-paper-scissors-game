@@ -62,6 +62,20 @@ function displayResult(userChoice, computerChoice) {
     }
 }
 
+// event listeners for each button 
+rock.addEventListener("click", function () {
+    game("Rock");
+});
+paper.addEventListener("click", function () {
+    game("Paper");
+});
+scissors.addEventListener("click", function () {
+    game("Scissors");
+});
+
+
+
+}
 
 
 
