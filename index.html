@@ -20,25 +20,27 @@
         <h2>Can you beat the computer?</h2>
     </header>
 
-    <div class="selections">
-        <button class="selection" data-selection="rock">🪨</button>
-        <button class="selection" data-selection="paper">🧻</button>
-        <button class="selection" data-selection="scissors">✂️</button>
+
+    <!-- result display-->
+    <div id="results">
+        <span id="user-result">0</span>
+        <span> : </span>
+        <span id="computer-result">0</span>
     </div>
 
-    <div class="results">
-        <div>
-            You
-            <span class="result-score" data-your-score>0</span>
-        </div>
-
-        <div data-final-column>
-            Computer
-            <span class="result-score" data-computer-score>0</span>
-        </div>
-      
-
+    <!-- emoji buttons-->
+    <div id="game-options">
+        <button id="rock" class="rps-button">🪨</button>
+        <button id="paper" class="rps-button">🧻</button>
+        <button id="scissors" class="rps-button">✂️</button>
     </div>
+
+
+
+
+
+
+
 
     <footer>
         <h1>Rules:</h1>
