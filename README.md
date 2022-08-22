@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors Game - Project 2
 
-<img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/site-responsive.png">
+<img src="https://github.com/AdamVictory/rock-paper-scissors-game/blob/main/wireframescreenshots/responsive.png">
 
 This website consists of a modern and user friendly rock paper scissors game that allows the individual to compete against the computer. It is a fun game that can be played by anyone and has a truly random result creating a fair game. This website will allow the user to understand the rules of the game and learn more about probability and improve their decision making. It is very easy to use so it can be played by all ages.  
 
@@ -75,7 +75,7 @@ The main goal for this website is to serve as an easy to use online game for use
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/emojis.png">
 
-<img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/scoreboard.png">
+<img src="https://github.com/AdamVictory/rock-paper-scissors-game/blob/main/wireframescreenshots/result.png">
 
 + The Footer - This section appears on the bottom of the page. It clearly tells the user how to play the game. I didn't want to make it abolsute at the botton as I like how it moves down as the player plays more.
 
@@ -171,9 +171,9 @@ The live link can be found here - https://adamvictory.github.io/rock-paper-sciss
 
 ## Code
 For the Javascript problems I faced I used these sites for reference: 
-(https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
-(https://www.youtube.com/watch?v=Qqy8Ov3NWvQ)
-(https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+- (https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
+- (https://www.youtube.com/watch?v=Qqy8Ov3NWvQ)
+- (https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 
 
 ## Emojis 
