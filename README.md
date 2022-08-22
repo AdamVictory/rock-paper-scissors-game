@@ -6,7 +6,7 @@ This website consists of a modern and user friendly rock paper scissors game tha
 
 The main aim of this project is to contruct an aesthetically pleasing, easy to use, responsive and modern website which substantially creates a fun experience for the user by allowing them to interact further with the website. It will be constructed using HTML, CSS and Javascript. The full list of technologies used can be found further down. 
 
-[Live link to website](https://adamvictory.github.io/rock-paper-scissors/)
+[Live link to website](https://adamvictory.github.io/rock-paper-scissors-game/)
 
 <hr>
 
@@ -164,16 +164,20 @@ I am satisified with all of the results as it acheived a high score.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://adamvictory.github.io/rock-paper-scissors/
+The live link can be found here - https://adamvictory.github.io/rock-paper-scissors-game/
 
 
 ## Credits  
 
 ## Code
-The Javascript for this project was influenced by the following tutorial (https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
+For the Javascript problems I faced I used these sites for reference: 
+(https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
+(https://www.youtube.com/watch?v=Qqy8Ov3NWvQ)
+(https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+
 
 ## Emojis 
-[Emojipedia][https://emojipedia.org/] was used for the emoji game icons.
+[Emojipedia](https://emojipedia.org/) was used for the emoji game icons.
 
 ## Fonts
 I only used one font for this project. I got it from google fonts it's called Koulen. 
