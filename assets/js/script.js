@@ -20,4 +20,14 @@ function game(userChoice) {
     displayResult(userChoice, computerChoice);
 }
 
+// update result and set score variables 
+const updateResult = () => { 
+    const userResultDisplay = document.getElementById("user-result");
+    userResultDisplay.innerHTML = userResult;
+    const computerResultDisplay = document.getElementById("computer-result");
+    computerResultDisplay.innerHTML = userResult;
+};
+
+
+
 
