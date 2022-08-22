@@ -71,7 +71,7 @@ The main goal for this website is to serve as an easy to use online game for use
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/headings.png">
 
-+ The Game - This section consists of the game options which involve three different emojis of a rock, paper and scissors to express the three different options. I feel that using these emojis are better than hand signals as younger people may not know what they represent. This section also consits of a scoreboard to easily allow the user to view if they won the hand or not. It lowers the opacity of the emoji if the user lost or drew the game and does not lower the opacity if they win that hand. I changed the colour of the numbers to create contrast and easily allow the user to know the score.
++ The Game - This section consists of the game options which involve three different emojis of a rock, paper and scissors to express the three different options. I feel that using these emojis are better than hand signals as younger people may not know what they represent. This section also consits of a scoreboard to easily allow the user to view if they won the hand or not. 
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/emojis.png">
 
@@ -187,7 +187,6 @@ I only used one font for this project. I got it from google fonts it's called Ko
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/colour-scheme.png">
 The colour scheme in this project consists of three colours: Black, White and Coral.
-They complement eachother very well and create good contrast. 
-I used [coolers](https://coolors.co/)
+They complement eachother very well and create good contrast. [Coolers](https://coolors.co/)
 
 
