@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game - Project 2
+# Rock, Paper, Scissors Game - Project 2
 
 <img src="https://github.com/AdamVictory/rock-paper-scissors/blob/main/wireframescreenshots/site-responsive.png">
 

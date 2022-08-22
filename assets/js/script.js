@@ -1,11 +1,11 @@
 // DOM variables
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
-const scissors = document.getElementById("rock");
+const scissors = document.getElementById("scissors");
 const rpsOptions = ['Rock', 'Paper', 'Scissors'];
 const result = document.getElementById("result");
-let userResult = 0; 
-let computerResult = 0;
+let userScore = 0;
+let computerScore = 0;
 
 
 // let computer select random choice 
@@ -21,44 +21,44 @@ function game(userChoice) {
 }
 
 // update result and set score variables 
-const updateResult = () => { 
-    const userResultDisplay = document.getElementById("user-result");
-    userResultDisplay.innerHTML = userResult;
-    const computerResultDisplay = document.getElementById("computer-result");
-    computerResultDisplay.innerHTML = userResult;
+const updateScore = () => { 
+    const userScoreDisplay = document.getElementById("user-score");
+    userScoreDisplay.innerHTML = userScore;
+    const computerScoreDisplay = document.getElementById("computer-score");
+    computerScoreDisplay.innerHTML = computerScore;
 };
 
 // display result 
 function displayResult(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
         result.innerHTML = "It's a draw";
-        userResult++;
-        computerResult++;
-        updateResult();
+        userScore++;
+        computerScore++;
+        updateScore();
     } else if (userChoice === "Rock" && computerChoice === "Scissors") {
         result.innerHTML = "Rock beats Scissors, You're a winner!";
-        userResult++;
-        updateResult();
+        userScore++;
+        updateScore();
     } else if (userChoice === "Scissors" && computerChoice === "Paper") {
         result.innerHTML = "Scissors beats Rock, You're a winner!";
-        userResult++;
-        updateResult();
+        userScore++;
+        updateScore();
     } else if (userChoice === "Paper" && computerChoice === "Rock") {
         result.innerHTML = "Paper beats Rock, You're a winner!";
-        userResult++;
-        updateResult();
-    } else if (userChoice === "Paper" && computerChoice === "Scissors") {
+        userScore++;
+        updateScore();
+    } else if (userChoice == "Paper" && computerChoice === "Scissors") {
         result.innerHTML = "Scissors beats Rock, You're a loser!";
-        computerResult++;
-        updateResult();
+        computerScore++;
+        updateScore();
     } else if (userChoice === "Scissors" && computerChoice === "Rock") {
         result.innerHTML = "Rock beats Scissors, You're a loser!";
-        computerResult++;
-        updateResult();
+        computerScore++;
+        updateScore();
     } else {
         result.innerHTML = "Paper beats Rock, You're a loser!";
-        computerResult++;
-        updateResult();
+        computerScore++;
+        updateScore();
     }
 }
 
@@ -72,11 +72,5 @@ paper.addEventListener("click", function () {
 scissors.addEventListener("click", function () {
     game("Scissors");
 });
-
-
-
-}
-
-
 
 
