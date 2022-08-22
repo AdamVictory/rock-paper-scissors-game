@@ -14,5 +14,10 @@ function createComputerChoice() {
     return rpsOptions[randomChoice];
 }
 
+// run game function
+function game(userChoice) {
+    let computerChoice = createComputerChoice();
+    displayResult(userChoice, computerChoice);
+}
 
 
