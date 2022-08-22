@@ -16,12 +16,12 @@ h2 {
     color: black
 }
 
-.selections {
+#results {
     display: flex;
     justify-content: center;
 }
 
-.selection {
+#game-options {
     background: none;
     border: none;
     outline: none;
