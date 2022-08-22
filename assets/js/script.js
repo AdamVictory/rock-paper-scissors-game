@@ -28,6 +28,41 @@ const updateResult = () => {
     computerResultDisplay.innerHTML = userResult;
 };
 
+// display result 
+function displayResult(userChoice, computerChoice) {
+    if (userChoice === computerChoice) {
+        result.innerHTML = "It's a draw";
+        userResult++;
+        computerResult++;
+        updateResult();
+    } else if (userChoice === "Rock" && computerChoice === "Scissors") {
+        result.innerHTML = "Rock beats Scissors, You're a winner!";
+        userResult++;
+        updateResult();
+    } else if (userChoice === "Scissors" && computerChoice === "Paper") {
+        result.innerHTML = "Scissors beats Rock, You're a winner!";
+        userResult++;
+        updateResult();
+    } else if (userChoice === "Paper" && computerChoice === "Rock") {
+        result.innerHTML = "Paper beats Rock, You're a winner!";
+        userResult++;
+        updateResult();
+    } else if (userChoice === "Paper" && computerChoice === "Scissors") {
+        result.innerHTML = "Scissors beats Rock, You're a loser!";
+        computerResult++;
+        updateResult();
+    } else if (userChoice === "Scissors" && computerChoice === "Rock") {
+        result.innerHTML = "Rock beats Scissors, You're a loser!";
+        computerResult++;
+        updateResult();
+    } else {
+        result.innerHTML = "Paper beats Rock, You're a loser!";
+        computerResult++;
+        updateResult();
+    }
+}
+
+
 
 
 
