@@ -168,6 +168,8 @@ The live link can be found here - https://adamvictory.github.io/rock-paper-sciss
 
 ## Credits  
 
+## Code
+The Javascript for this project was influenced by the following tutorial (https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
 
 ## Emojis 
 [emojipedia][https://emojipedia.org/] was used for the emoji game icons.
