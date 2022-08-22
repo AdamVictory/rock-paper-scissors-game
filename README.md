@@ -35,6 +35,7 @@ The main aim of this project is to contruct an aesthetically pleasing, easy to u
     * [Issues And Resolutions](#issues-And-Resolutions)
 - [Deployment](#deployment)
 - [Credits](#Credits)
+    * [Code](#code)
     * [Emojis](#emojis)
     * [Fonts](#fonts)
     * [Colours](#colours)
@@ -172,7 +173,7 @@ The live link can be found here - https://adamvictory.github.io/rock-paper-sciss
 The Javascript for this project was influenced by the following tutorial (https://www.youtube.com/watch?v=1yS-JV4fWqY&t=1126s/) 
 
 ## Emojis 
-[emojipedia][https://emojipedia.org/] was used for the emoji game icons.
+[Emojipedia][https://emojipedia.org/] was used for the emoji game icons.
 
 ## Fonts
 I only used one font for this project. I got it from google fonts it's called Koulen. 

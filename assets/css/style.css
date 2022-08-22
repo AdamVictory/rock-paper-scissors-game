@@ -35,6 +35,7 @@ h2 {
 }
 
 .results {
+    font-size:x-large;
     margin-top: 2rem;
     display: grid;
     justify-content: center;
